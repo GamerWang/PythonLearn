@@ -27,13 +27,13 @@ print False == 0
 d = False + 1
 print d
 print not d
-print 1 and 2
-print 0 and 1
-print False or 1
-print 1 or False
-print False and 1
-print 1 and False
-print 1 or (1 + 1 and 3)
+print 1 and 2            # result is 2
+print 0 and 1            # result is 0
+print False or 1         # result is 1
+print 1 or False         # result is 1
+print False and 1        # result is False
+print 1 and False        # result is False
+print 1 or (1 + 1 and 3) # result is 1
 '''
 # guess number game
 num = 10

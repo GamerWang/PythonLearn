@@ -24,14 +24,28 @@ else:
 '''
 counter = 0
 while counter < 10:
-    print counter
     counter += 1
+    if counter == 2:
+        continue
+    print counter
     # counter++     # this is not valid
-    if(counter == 5):
+    if (counter == 5):
         break
 '''
-# guess number game
+# for controller test
 
+for i in range(1, 101):
+    print i # print 1 to 100
+
+for i in range(0, 10):
+    if i == 1:
+        continue
+    print i
+    if i == 5:
+        break
+
+# guess number game
+'''
 num = randint(1, 100)
 correct = False
 print 'Guess what I think?'
@@ -45,3 +59,4 @@ while not correct:
     if answer == num:
         correct = True
         print 'BINGO!'
+'''

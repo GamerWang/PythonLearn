@@ -2,7 +2,7 @@
 from random import randint # import method for random int
 
 # if controller test
-'''
+
 x = 0
 if x:
     print x
@@ -19,7 +19,17 @@ else:
     if True:
         print 1
     print "not zero"
-'''
+
+a = randint(1, 3)
+if a == 1:
+    print 'one'
+elif a == 2:
+    print 'two'
+elif a == 3:
+    print 'three'
+else:
+    print 'much'
+
 # while controller test
 '''
 counter = 0
@@ -33,7 +43,7 @@ while counter < 10:
         break
 '''
 # for controller test
-
+'''
 for i in range(1, 101):
     print i # print 1 to 100
 
@@ -43,7 +53,7 @@ for i in range(0, 10):
     print i
     if i == 5:
         break
-
+'''
 # guess number game
 '''
 num = randint(1, 100)
